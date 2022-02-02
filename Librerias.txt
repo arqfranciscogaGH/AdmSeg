@@ -1,0 +1,53 @@
+MeNet.Nucleo.Utilerias
+MeNet.Nucleo.Sesion
+MeNet.Nucleo.Comun
+MeNet.Nucleo.ConsultorConfiguracion
+MeNet.Nucleo.Variables
+MeNet.Nucleo.Eventos
+
+
+
+DRP.Modelo
+MeNet.Nucleo.Modelo
+	DRP.Modelo
+MeNet.Nucleo.Contexto
+	MeNet.Nucleo.Sesion
+MeNet.Nucleo.AdministradorBaseDatos
+	MeNet.Nucleo.Contexto
+MeNet.Nucleo.Negocio
+	MeNet.Nucleo.Contexto
+	MeNet.Nucleo.AdministradorBaseDatos
+MeNet.Nucleo.ServiciosAplicacion
+	MeNet.Nucleo.Sesion
+	MeNet.Nucleo.Variables
+	MeNet.Nucleo.Eventos
+	MeNet.Nucleo.Negocio
+MeNet.Nucleo.Configuracion
+	MeNet.Nucleo.Contexto
+	MeNet.Nucleo.Negocio
+	MeNet.Nucleo.AdministradorBaseDatos
+MeNet.Nucleo.AdministradorCorreo
+	MeNet.Nucleo.Comun
+	MeNet.Nucleo.Utilerias
+	MeNet.Nucleo.ConsultorConfiguracion
+
+
+MeNet.Seguridad.Administrador
+	MeNet.Nucleo.Comun
+	MeNet.Nucleo.Sesion
+	MeNet.Nucleo.Modelo
+	MeNet.Nucleo.Negocio
+	MeNet.Nucleo.Utilerias
+	DRP.Modelo
+	MeNet.Nucleo.Configuracion
+	MeNet.Nucleo.AdministradorBaseDatos
+	MeNet.Nucleo.AdministradorCorreo
+
+MeNet.Nucleo.Catalogo
+	MeNet.Nucleo.Contexto
+	MeNet.Nucleo.Negocio
+	MeNet.Nucleo.Variables
+Sitio
+	DRP.Modelo
+	MeNet.Seguridad.Administrador
+
